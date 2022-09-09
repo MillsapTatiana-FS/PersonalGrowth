@@ -20,9 +20,9 @@ function Header() {
         
         <a href="/">Home</a>
             <ul>
-                <li><a href="/about">About Me</a></li>
-                <li><a href="/myWork">My Work</a></li>
-                <li><a href="/contact">Contact Me</a></li>
+                <ul><a href="/about">About Me</a></ul>
+                <ul><a href="/myWork">My Work</a></ul>
+                <ul><a href="/contact">Contact Me</a></ul>
             </ul>
         
     </div>
