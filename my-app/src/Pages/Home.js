@@ -1,12 +1,11 @@
 import React from 'react'
 import Header from '../Components/header'
-import Home from '../Pages/Home'
-g
-// import ContactMe from '../Pages/ContactMe'
-// import MyWork from '../Pages/MyWork'
+import AboutMe from '../Pages/AboutMe'
+import ContactMe from '../Pages/ContactMe'
+import MyWork from '../Pages/MyWork'
 
 function Home() {
-    let component
+    let component = null
     switch(window.location.pathname){
         case '/':
             break
@@ -22,9 +21,9 @@ function Home() {
     }
   return (
     <div>
-        <p>Hello World</p>
         <Header />
         {component}
+        
     </div>
   )
 }
