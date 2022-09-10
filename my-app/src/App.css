@@ -17,3 +17,11 @@
   color: #c68484;
 }
 
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+  padding: 0 20px;
+}
